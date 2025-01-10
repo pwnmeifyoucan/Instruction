@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  moyen_reseau:
+    image: huybadpi/moyen_reseau:latest 
+    container_name: moyen_reseau-container  
+    ports:
+      - "8080:80"                 
+      - "12345:12345"              
+    restart: unless-stopped       

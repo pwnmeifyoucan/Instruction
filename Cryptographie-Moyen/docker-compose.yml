@@ -1,0 +1,6 @@
+version: '3.8'
+services:
+  challenge:
+    image: huybadpi/moyen_cryptographie:latest
+    ports:
+      - "8080:80"

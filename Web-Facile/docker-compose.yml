@@ -17,7 +17,7 @@ services:
             MYSQL_USER: test
             MYSQL_PASSWORD: pass
     challenge:
-        image: huybadpi/UI_facile_web:latest
+        image: huybadpi/ui_facile_web:latest
         ports:
             - "8080:80"
 
